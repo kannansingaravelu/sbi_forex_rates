@@ -1,0 +1,15 @@
+name: Sync fork with upstream
+
+on:
+  schedule:
+    # Every Saturday at 04:00 UTC (9:30 AM IST)
+    - cron: "0 4 * * 6"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh api -X POST repos/${{ github.repository }}/merge-upstream -f branch=main
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
