@@ -14673,3 +14673,4 @@ Exception: Unable to retrieve a valid PDF
 2026-11-18 18:59:30,588 - __main__ - INFO - Saved rates for 30 currencies, published 2026-11-18 10:01
 2026-11-19 19:08:00,903 - __main__ - INFO - Saved rates for 30 currencies, published 2026-11-19 14:02
 2026-11-20 18:45:31,430 - __main__ - INFO - Saved rates for 30 currencies, published 2026-11-20 15:23
+2026-11-21 17:45:05,926 - __main__ - INFO - Saved rates for 30 currencies, published 2026-11-21 09:54
